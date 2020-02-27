@@ -35,7 +35,7 @@ pipeline {
       }
     }
 
-    stage('SMOKE tests') {
+    stage('Testing') {
       parallel {
         stage('SMOKE tests') {
           steps {
